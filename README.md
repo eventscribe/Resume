@@ -1,2 +1,2 @@
 # Resume
-SPA Resume with personal programming projects
+VUE.js personal resume with programming projects such as a precious metals calculator and interactive drum machine.
