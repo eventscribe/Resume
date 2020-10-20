@@ -1,9 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-
-
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
@@ -16,12 +14,14 @@ export default new Router({
     {
       path: '/home',
       name: 'home',
-      component: () => import(/* webpackChunkName: "heroes" */ './views/home.vue')
+      component: () =>
+        import(/* webpackChunkName: "heroes" */ './views/home.vue'),
     },
     {
       path: '/metalCalc',
       name: 'metalCalc',
-      component: () => import(/* webpackChunkName: "heroes" */ './views/metalcalculator.vue')
+      component: () =>
+        import(/* webpackChunkName: "heroes" */ './views/metalcalculator.vue'),
     },
     {
       path: '/boat',
@@ -29,7 +29,14 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "boat" */ './views/boat.vue')
-    }
-  ]
-})
+      component: () =>
+        import(/* webpackChunkName: "boat" */ './views/boat.vue'),
+    },
+    {
+      path: '/drummer',
+      name: 'drummer',
+      component: () =>
+        import(/* webpackChunkName: "drummer" */ './views/drummer.vue'),
+    },
+  ],
+});

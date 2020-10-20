@@ -6,9 +6,8 @@
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i class="fab"  aria-hidden="true" />
-      <img src="../assets/Rata2.png" alt="">
-      
+      <i class="fab" aria-hidden="true" />
+      <img src="../assets/Rata2.png" alt="" />
     </a>
     <div class="navbar-item nav-home">
       <span class="tour">CAMERON</span>

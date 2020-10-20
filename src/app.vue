@@ -2,9 +2,9 @@
   <div id="app">
     <HeaderBar />
     <div class="main-section columns">
-      <NavBar/>
+      <NavBar />
       <main class="column">
-       <router-view></router-view>
+        <router-view></router-view>
       </main>
     </div>
   </div>
@@ -14,11 +14,9 @@
 import HeaderBar from '@/components/header-bar';
 import NavBar from '@/components/navbar';
 
-
-
 export default {
   name: 'App',
-  components: { HeaderBar, NavBar},
+  components: { HeaderBar, NavBar },
 };
 </script>
 

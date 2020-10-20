@@ -6,7 +6,6 @@
           <a :href="github" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-github fa-2x" aria-hidden="true"></i>
           </a>
-          
         </div>
       </div>
     </div>
@@ -17,8 +16,7 @@
 export default {
   data() {
     return {
-      github: 'https://github.com/johnpapa/vue-getting-started',
-      
+      github: 'https://github.com/eventscribe/Resume',
     };
   },
 };
