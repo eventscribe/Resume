@@ -16,6 +16,7 @@
     "bulma": "^0.7.5",
     "core-js": "^2.6.5",
     "regression": "^2.0.1",
+    "travis": "^0.1.1",
     "vue": "^2.6.10",
     "vue-gallery": "^2.0.1",
     "vue-router": "^3.0.3"
