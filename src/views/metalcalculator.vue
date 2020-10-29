@@ -256,12 +256,12 @@ export default {
           .map((i, index) => [index + 1, i[1]]);
         //console.log(data);
         let r = regression.linear(data);
-        console.log(r);
+
         prediction = r.predict(dayCount + 7)[1];
-        console.log(prediction);
+
         prediction = numbro(prediction / 31.1).formatCurrency({ mantissa: 2 });
       }
-      //console.log(prediction);
+
       return prediction;
     },
     silverGramValue() {
@@ -339,7 +339,6 @@ export default {
       this.metals.gold.gramPrice = numbro(goldPrice / 31.1).formatCurrency({
         mantissa: 2,
       });
-      //console.log(goldPrice);
     },
     silverTimer() {
       if (Math.floor(Math.random() * 10) >= 4) {
@@ -353,21 +352,18 @@ export default {
       this.metals.silver.gramPrice = numbro(silverPrice / 31.1).formatCurrency({
         mantissa: 2,
       });
-      //console.log(silverPrice);
     },
     updatePlantinumValue(platinumPrice) {
       this.metals.platinum.price = platinumPrice;
       this.metals.platinum.gramPrice = numbro(
         platinumPrice / 31.1
       ).formatCurrency({ mantissa: 2 });
-      //console.log(platinumPrice);
     },
     updatePalladiumValue(palladiumPrice) {
       this.metals.palladium.price = palladiumPrice;
       this.metals.palladium.gramPrice = numbro(
         palladiumPrice / 31.1
       ).formatCurrency({ mantissa: 2 });
-      console.log(palladiumPrice);
     },
   },
 
@@ -416,7 +412,6 @@ export default {
       .then(response => {
         this.metals.palladium.data = response.data.dataset.data;
         this.updatePalladiumValue(response.data.dataset.data[0][1]);
-        console.log(this.metals.palladium.gramPrice);
       });
   },
 };
