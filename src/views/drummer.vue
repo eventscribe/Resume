@@ -140,7 +140,7 @@ export default {
   mounted() {
     let vm = this;
     window.addEventListener('keypress', e => {
-      console.log(e.keyCode);
+      //console.log(e.keyCode);
       let sample = vm.samples.find(
         s => s.validKeys.findIndex(i => i === e.keyCode) >= 0
       );
@@ -157,7 +157,7 @@ export default {
         //audio.addEventListener('ended', console.log('set is playing to false'));
         setTimeout(resetTransition, sample.duration);
       } else {
-        console.log(String.fromCharCode(e.keyCode) + ' Not Found');
+        //console.log(String.fromCharCode(e.keyCode) + ' Not Found');
       }
     });
   },
