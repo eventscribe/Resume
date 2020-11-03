@@ -1,9 +1,18 @@
+<style scoped>
+  .image {
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #ebebeb;
+    margin: 5px;
+  }
+</style> 
+
 <template>
   <div class="content-container">
     <div class="section content-title-group">
       <h2 class="title">Boat Gallery</h2>
-      <p>Here are some pictures of watercraft I have built.</p>
-
       <br />
 
       <div>
@@ -19,8 +28,8 @@
           @click="index = imageIndex"
           :style="{
             backgroundImage: 'url(' + image + ')',
-            width: '300px',
-            height: '200px',
+            width: '128px',
+            height: '128px',
           }"
         ></div>
       </div>
@@ -59,13 +68,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.image {
-  float: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  border: 1px solid #ebebeb;
-  margin: 5px;
-}
-</style>
+
