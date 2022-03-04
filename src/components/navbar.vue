@@ -6,9 +6,9 @@
       ><br />
       <router-link to="/metalCalc">Metal Calculator</router-link
       ><br />
-      <router-link to="/boat">Boat Gallery</router-link
-      ><br />
       <router-link to="/drummer">Heavy Metal Drums</router-link>
+      <br />
+      <router-link to="/synth">Synthesizer</router-link>
     </ul>
   </nav>
 </template>

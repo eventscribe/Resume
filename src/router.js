@@ -24,19 +24,16 @@ export default new Router({
         import(/* webpackChunkName: "heroes" */ './views/metalcalculator.vue'),
     },
     {
-      path: '/boat',
-      name: 'boat',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "boat" */ './views/boat.vue'),
-    },
-    {
       path: '/drummer',
       name: 'drummer',
       component: () =>
         import(/* webpackChunkName: "drummer" */ './views/drummer.vue'),
+    },
+    {
+      path: '/synth',
+      name: 'synth',
+      component: () =>
+        import(/* webpackChunkName: "synth" */ './views/synth.vue'),
     },
   ],
 });
