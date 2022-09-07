@@ -57,7 +57,7 @@ kbd {
 <template>
   <div class="content-container">
     <div class="keys column is-11">
-        <span
+      <span
         class="key"
         v-for="sample in samples"
         :key="sample.validKeys[0]"
@@ -81,23 +81,21 @@ kbd {
       </span>
     </div>
     <div class="column is-2">
-        <label class="label">Select a Synth</label>
-            <div class="control">
-                <div class="select" ref="synthSelect">
-                      <select
-                        v-model="selectedSynth"
-                      >
-                        <option
-                          v-for="(synth, index) in synths"
-                          :key="index"
-                          :value="synth"
-                          >{{ synth.name }}</option
-                        >
-                      </select>
-                </div>
-            </div>
+      <label class="label">Select a Synth</label>
+      <div class="control">
+        <div class="select">
+          <select v-model="selectedSynth">
+            <option
+              v-for="(synth, index) in synths"
+              :key="index"
+              :value="synth"
+              >{{ synth.name }}</option
+            >
+          </select>
+        </div>
+      </div>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
@@ -107,9 +105,9 @@ const filter = new Tone.Filter(400, 'lowpass').toDestination();
 const feedbackDelay = new Tone.FeedbackDelay(0.5, 0.5).toDestination();
 const dist = new Tone.Distortion(0.8).toDestination();
 const phaser = new Tone.Phaser({
-	frequency: 15,
-	octaves: 5,
-	baseFrequency: 1000
+  frequency: 15,
+  octaves: 5,
+  baseFrequency: 1000,
 }).toDestination();
 const fm = new Tone.FMSynth().toDestination().connect(dist);
 const am = new Tone.AMSynth().toDestination().connect(dist);
@@ -229,13 +227,13 @@ export default {
           styleDuration: 8000,
         },
       ],
-      selectedSynth: { name: 'FMSynth', value: 'FM' },
+      selectedSynth: { name: 'FMSynth', value: '1' },
       synths: [
-            { name: 'FMSynth', value: 1 },
-            { name: 'AMSynth', value: 2 },
-            { name: 'DuoSynth', value: 3 },
-            { name: 'PolySynth', value: 4 },
-          ],
+        { name: 'FMSynth', value: 1 },
+        { name: 'AMSynth', value: 2 },
+        { name: 'DuoSynth', value: 3 },
+        { name: 'PolySynth', value: 4 },
+      ],
     };
   },
   mounted() {
@@ -247,50 +245,51 @@ export default {
         s => s.validKeys.findIndex(i => i === e.keyCode) >= 0
       );
 
-    //Get the keyboard inputs for the samples row
-    let sample = vm.samples.find(
+      //Get the keyboard inputs for the samples row
+      let sample = vm.samples.find(
         s => s.validKeys.findIndex(i => i === e.keyCode) >= 0
       );
 
-    //Get value of currently selected synth
-    let selectedSynth = vm.selectedSynth.value;
-    //console.log(selectedSynth);
+      //Get value of currently selected synth
+      let selectedSynth = vm.selectedSynth.value;
+      //console.log(selectedSynth);
 
-    // Reset property for CSS transition on notes row
+      // Reset property for CSS transition on notes row
       function resetNoteTransition() {
         note.isPlaying = false;
       }
 
-    // Reset property for CSS transition on samples row
+      // Reset property for CSS transition on samples row
       function resetSampleTransition() {
         sample.isPlaying = false;
       }
 
       //toggle focus on synth input
-      function focusInput() {
+      /* function focusInput() {
         vm.$refs.synthSelect.focus();
-      }
+      } */
 
-    // Play a note given the set duration, start css effect
+      // Play a note given the set duration, start css effect
       if (note && selectedSynth == 1) {
-        focusInput();
         var instrument = fm.triggerAttackRelease(note.note, note.noteDuration);
         //Kick off CSS effects
         note.isPlaying = true;
         setTimeout(resetNoteTransition, note.styleDuration);
-      } 
-      else if (note && selectedSynth == 2) {
+      } else if (note && selectedSynth == 2) {
         var instrument = am.triggerAttackRelease(note.note, note.noteDuration);
         //Kick off CSS effects
         note.isPlaying = true;
         setTimeout(resetNoteTransition, note.styleDuration);
-      } else if (note && selectedSynth == 3){
+      } else if (note && selectedSynth == 3) {
         var instrument = duo.triggerAttackRelease(note.note, note.noteDuration);
         //Kick off CSS effects
         note.isPlaying = true;
         setTimeout(resetNoteTransition, note.styleDuration);
       } else if (note && selectedSynth == 4) {
-        var instrument = poly.triggerAttackRelease([note.note, 'A4', 'D#3'], note.noteDuration);
+        var instrument = poly.triggerAttackRelease(
+          [note.note, 'A4', 'D#3'],
+          note.noteDuration
+        );
         //Kick off CSS effects
         note.isPlaying = true;
         setTimeout(resetNoteTransition, note.styleDuration);
