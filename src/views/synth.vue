@@ -83,7 +83,7 @@ kbd {
     <div class="column is-2">
         <label class="label">Select a Synth</label>
             <div class="control">
-                <div class="select">
+                <div class="select" ref="synthSelect">
                       <select
                         v-model="selectedSynth"
                       >
@@ -98,7 +98,6 @@ kbd {
             </div>
     </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -247,23 +246,34 @@ export default {
       let note = vm.notes.find(
         s => s.validKeys.findIndex(i => i === e.keyCode) >= 0
       );
+
     //Get the keyboard inputs for the samples row
     let sample = vm.samples.find(
         s => s.validKeys.findIndex(i => i === e.keyCode) >= 0
       );
+
     //Get value of currently selected synth
     let selectedSynth = vm.selectedSynth.value;
-    console.log(selectedSynth);
+    //console.log(selectedSynth);
+
     // Reset property for CSS transition on notes row
       function resetNoteTransition() {
         note.isPlaying = false;
       }
+
     // Reset property for CSS transition on samples row
       function resetSampleTransition() {
         sample.isPlaying = false;
       }
+
+      //toggle focus on synth input
+      function focusInput() {
+        vm.$refs.synthSelect.focus();
+      }
+
     // Play a note given the set duration, start css effect
       if (note && selectedSynth == 1) {
+        focusInput();
         var instrument = fm.triggerAttackRelease(note.note, note.noteDuration);
         //Kick off CSS effects
         note.isPlaying = true;
@@ -280,13 +290,13 @@ export default {
         note.isPlaying = true;
         setTimeout(resetNoteTransition, note.styleDuration);
       } else if (note && selectedSynth == 4) {
-        var instrument = poly.triggerAttackRelease([note.note, 'A2', 'D#3'], note.noteDuration);
+        var instrument = poly.triggerAttackRelease([note.note, 'A4', 'D#3'], note.noteDuration);
         //Kick off CSS effects
         note.isPlaying = true;
         setTimeout(resetNoteTransition, note.styleDuration);
       }
 
-    // Play audio sample and start CSS effect for the property's duration
+      // Play audio sample and start CSS effect for the property's duration
       const player = new Tone.Player(sample.url).toDestination();
       Tone.loaded().then(() => {
         player.start();
