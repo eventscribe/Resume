@@ -1,0 +1,232 @@
+
+
+1 Cameron Bell
+
+
+1959 Orchard Drive NW υ Olympia, WA 98502 υ (206) 949-8472 υ
+eventscribe@gmail.com
+
+
+
+1
+
+
+
+2 Overview
+
+
+
+  Motivated, ambitious, and adaptive business professional with a talent
+for quickly mastering technology and a passion for using data to make
+better business decisions. A life-long student, will never stop learning
+and building mastery working with data and software. Methodical,
+analytical, highly adaptive, and creative. Accustomed to leading projects
+and serving a diverse group of clients. Asks awesome questions and will
+continue working to become a data and web guru.
+
+
+1
+
+
+2 Education
+
+
+BACHELOR’S OF ARTS AUDIO/VISUAL PRODUCTION
+EVERGREEN STATE COLLEGE – Olympia, WA
+Class of 2007
+
+ASSOCIATES OF APPLIED SCIENCE
+INFORMATION SYSTEMS/ .NET DEVELOPMENT
+BELLEVUE COLLEGE – Bellevue, WA
+2012-2014
+
+Skills Summary
+
+| SQL Server             | Business Analysis  | Python                     |
+|.NET / .NET Core MVC    |Agile/Scrum Project |SSRS                        |
+|Visual Studio & TFS     |Mgmt                |SAP BusinessObjects         |
+|C#                      |HTML5/CSS           |JavaScript/jQuery           |
+|                        |Responsive Design   |IIS                         |
+|                        |UML                 |Service Oriented            |
+|                        |                    |Architecture                |
+
+
+3 Software   Expertise
+
+
+
+SQL  SERVER  |  .NET  DEVELOPMENT  |  BUSINESS  ANALYSIS  |  AGILE   PROJECT
+MANAGEMENT
+
+
+
+     Advanced development in T-SQL,  SSRS,  TFS,  HTML5,  JavaScript/jQuery,
+C#, ASP.NET, and .NET Core  MVC.  Extensive  experience  in  Object-Oriented
+Design, Microsoft software patterns  and  practices,  and  Service  Oriented
+Architecture. Proven ability to  lead  development  teams,  gather  business
+requirements, manage medium-scale IT  projects  using  Agile  methodologies,
+and  ensure  products  meet  customer  expectations.  Strong  expertise   in
+designing and implementing  mission-critical,  highly-complex  environmental
+data systems that adhere to industry  best  practices  and  agency  software
+development standards.
+
+
+
+
+
+
+
+
+
+
+         Employment History
+
+
+
+       IT APPLICATION DEVELOPMENT SPECIALIST 3
+       Department of Ecology – Water Resources Program
+       Washington State
+       October 2022 to Present
+
+As a journey-level developer, responsible for the design,  development,  and
+maintenance of large-scale, mission-critical,  highly-complex  environmental
+data systems supporting Washington State's water resources management.
+
+Key Responsibilities & Achievements:
+
+Independently design, develop,  and  implement  custom  information  systems
+using C#, ASP.NET, HTML5,  MVC,  JavaScript,  Team  Foundation  Server,  and
+Microsoft SQL  Server,  adhering  to  industry  best  practices  and  agency
+standards
+Successfully migrated two legacy systems from  ASP.NET  Web  Forms  to  .NET
+Core  MVC,  modernizing  the   technology   stack   and   improving   system
+performance, maintainability, and user experience
+Develop sophisticated user interfaces and specification packages from  start
+to finish; code, test, and implement complex application components and  web
+services using reusable C# code
+Lead   medium-scale   IT   projects   using   Agile   Software   Development
+methodologies  and  LEAN  principles,  managing  project   plans,   budgets,
+schedules, product backlogs, and communication strategies to  deliver  high-
+value returns on investment
+Facilitate  daily  Scrum  meetings  to  manage  development  team  progress,
+enabling rapid identification and resolution of project issues
+Independently gather end-user requirements  for  medium-scale  IT  projects,
+translating  complex  business  needs  into  technical  system  requirements
+through structured analysis and collaboration with stakeholders
+Successfully manage complex integrated applications across  multiple  server
+platforms,  troubleshooting  system  outages  and   implementing   solutions
+agreeable to diverse stakeholder groups  (Ecology  staff,  partner  agencies
+including WDFW and Department of Health, and environmental consultants)
+Ensure adherence to Object-Oriented Design  constructs,  Microsoft  software
+patterns and practices, and Service Oriented Architecture principles
+Design  and  implement  highly-complex   workflows   between   inter-related
+systems, including the Water Acquisition and  Mitigation  Systems,  ensuring
+accurate analysis of water resources data for permit writers and  compliance
+experts
+Lead business analysis efforts  to  gather  requirements,  conduct  testing,
+resolve issues, and minimize bugs before production  release,  resulting  in
+high user satisfaction and trust in new systems
+Manage data migration from legacy systems,  ensuring  successful  completion
+and data integrity
+Research and evaluate  new  software  products  and  emerging  technologies,
+develop recommendations, and participate on agency-wide teams  to  establish
+standards  and  best  practices  in   application   architecture,   software
+development project management, and testing methodologies
+
+Technologies:  C#,  ASP.NET,  .NET  Core  MVC,  HTML5,  JavaScript,  jQuery,
+Python, SQL Server, Team  Foundation  Server,  UML,  IIS,  Service  Oriented
+Architecture
+
+
+       DATA ANALYST
+       Office of the Superintendent of Public Instruction
+       Washington State
+        2014 to 2016, 2017 to October 2022
+
+Served in roles as data and business analyst for  the  development  of  ICOS
+(Information and Condition of Schools), the inventory system used  to  track
+inventory  and  condition  information  about  Washington   State’s   school
+facilities.
+
+Served as program lead and user-acceptance tester in the conversion of  ICOS
+from Silverlight to .NET Core MVC.
+
+Implemented  an  electronic  D-FORM  process,  automating  a   large   grant
+application process, creating a digital record of  the  School  Construction
+Assistance Program, and eliminating tremendous amounts of paper waste.
+
+Worked with software architects, project managers,  and  business  staff  in
+the development and management of databases and software systems.
+
+Provided  accurate  data  and  analysis  related  to  capital   funding   of
+Washington’s schools.
+
+Provided technical assistance to  school  districts,  educational  partners,
+and OSPI staff.
+
+Prepared various written and visual products including legislative  reports,
+software technical documentation, user manuals, interactive  reports  (SSRS,
+R, Excel), and user interface designs.
+
+
+
+       Business Intelligence Developer
+       WaTech (Enterprise Applications Division)
+       Washington State
+       2016 to 2017
+
+Provided one-on-one support to assist customers with  Self-service  Business
+Intelligence report development.
+
+Provided tier 2/3 technical support for Enterprise Reporting Services.
+
+Assisted  and  troubleshot  problems  in  a   large   enterprise   reporting
+environment.
+
+Provided  functional  and  end-to-end  testing  of  an  SAP  BusinessObjects
+reporting environment.
+
+Tested, debugged, and developed complex T-SQL queries.
+
+Managed and audited system security and system access.
+
+
+
+
+
+
+
+
+       JUVENILE JUSTICE AND REHABILITATION COORDINATOR
+       Washington State Juvenile Justice and  Rehabilitation  Administration
+
+        Department of Social and Health Services
+       2008 to 2014
+
+
+Served as the primary policy writer, report developer,  intake  coordinator,
+and  cultural  programs  administrator  for  a  Washington  State   juvenile
+rehabilitation facility.
+
+Supervised multiple  data  collections  to  identify,  monitor  and  improve
+conditions and rehabilitation  services  provided  in  order  to  adhere  to
+national standards.
+
+Led the institution in seeking accreditation for the  American  Correctional
+Association, changing  policies  to  reflect  best  practices  and  national
+standards for correctional care, securing over $400,000 a  year  in  funding
+from the legislature.
+
+Managed  a  diverse  cultural  and  faith  program,  supervising  dozens  of
+volunteers and state employees.
+
+Served as  the  GoTo  Meeting  administrator,  providing  video-conferencing
+solutions to 100+ employees and clients.
+
+
+
+
+
+
+
+
